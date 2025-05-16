@@ -62,53 +62,54 @@
 
             <section class="coffee-page__plans plans">
                 <article class="plans__plan-wrapper">
-                    <ul>
-                        <li><div class="included"></div> 1 coffee bag per month</li>
-                        <li><div class="no-included"></div> Choose your roast type</li>
-                        <li><div class="no-included"></div> Free shipping</li>
-                        <li><div class="no-included"></div> Surprise gift every 3 months</li>
-                        <li><div class="no-included"></div> Limited edition coffee</li>
+                    <ul class="plans__checklist">
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> 1 coffee bag per month</li>
+                        <li class="plans__item plans__item--unchecked"><div class="plans__box plans__box--unchecked"></div> Choose your roast type</li>
+                        <li class="plans__item plans__item--unchecked"><div class="plans__box plans__box--unchecked"></div> Free shipping</li>
+                        <li class="plans__item plans__item--unchecked"><div class="plans__box plans__box--unchecked"></div> Surprise gift every 3 months</li>
+                        <li class="plans__item plans__item--unchecked"><div class="plans__box plans__box--unchecked"></div> Limited edition coffee</li>
                     </ul>
-                    <h2>Starter</h2>
-                    <p>Just a taste! 1 bag/month</p>
+                    <h2 class="plans__title">Starter</h2>
+                    <p class="plans__description">Just a taste! 1 bag/month</p>
                     <button>Select</button>
                 </article>
 
-                <article>
-                    <ul>
-                        <li><div class="included"></div> 1 coffee bag per month</li>
-                        <li><div class="included"></div> Choose your roast type</li>
-                        <li><div class="included"></div> Free shipping</li>
-                        <li><div class="included"></div> Surprise gift every 3 months</li>
-                        <li><div class="no-included"></div> Limited edition coffee</li>
+                <article class="plans__plan-wrapper">
+                    <ul class="plans__checklist">
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> 1 coffee bag per month</li>
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> Choose your roast type</li>
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> Free shipping</li>
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> Surprise gift every 3 months</li>
+                        <li class="plans__item plans__item--unchecked"><div class="plans__box plans__box--unchecked"></div> Limited edition coffee</li>
                     </ul>
-                    <h2>Premium</h2>
-                    <p>$240/<span>per year</span></p>
-                    <p>More beans, more bliss</p>
+                    <h2 class="plans__title plans__title--contrast">Premium</h2>
+                    <p class="plans__price">$240/<span class="plans__price--info">per year</span></p>
+                    <p class="plans__description">More beans, more bliss</p>
                     <button>Select</button>
                 </article>
 
-                <article>
-                    <ul>
-                        <li><div class="included"></div> 1 coffee bag per month</li>
-                        <li><div class="included"></div> Choose your roast type</li>
-                        <li><div class="included"></div> Free shipping</li>
-                        <li><div class="included"></div> Surprise gift every 3 months</li>
-                        <li><div class="included"></div> Limited edition coffee</li>
+                <article class="plans__plan-wrapper">
+                    <ul class="plans__checklist">
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> 1 coffee bag per month</li>
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> Choose your roast type</li>
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> Free shipping</li>
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> Surprise gift every 3 months</li>
+                        <li class="plans__item plans__item--checked"><div class="plans__box plans__box--checked"></div> Limited edition coffee</li>
                     </ul>
-                    <h2>Maniac</h2>
-                    <p>Unlimited coffee joy for the real maniacs</p>
+                    <h2 class="plans__title">Maniac</h2>
+                    <p class="plans__description">Unlimited coffee joy for the real maniacs</p>
                     <button>Select</button>
                 </article>
             </section>
         </main>
-        <footer>
-            <form action="https://www.freecodecamp.com/email-submit" method="post">
-                <input type="email" name="email" id="email">
-                <textarea name="suport" cols="30" rows="3" id="suport"></textarea>
-                <input type="submit" value="sumbit">
+        <footer class="footer">
+            <form action="https://www.freecodecamp.com/email-submit" method="post" class="footer__suport-area">
+                <h3 class="footer__title">Suport</h3>
+                <input class="footer__input" type="email" name="email" id="email" placeholder="E-mail">
+                <textarea class="footer__text-area" name="suport" cols="30" rows="3" id="suport" placeholder="Your mesage..."></textarea>
+                <input class="footer__submit-btn" type="submit" value="Submit">
             </form>
-            <p>Copyright 2025, <br>BeanRush</p>
+            <p class="footer__copy">Copyright 2025, <br>BeanRush</p>
         </footer>
     </body>
 </html>
